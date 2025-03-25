@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="Learned how to update a specific assistant">
-      <change afterPath="$PROJECT_DIR$/assistant/delete_assistant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assistant/deletion_status_obj.py" afterDir="false" />
+    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="Learned how to delete an assistant">
+      <change afterPath="$PROJECT_DIR$/files/delete_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/file_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/list_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/retrieve_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/retrieve_file_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/upload_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/create_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/delete_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/modify_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/retrieve_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/thread_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742626171582</updated>
       <workItem from="1742626172607" duration="24685000" />
-      <workItem from="1742867635386" duration="3394000" />
+      <workItem from="1742867635386" duration="7336000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -167,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742870644929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Learned how to delete an assistant">
+      <option name="closed" value="true" />
+      <created>1742874932034</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742874932034</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +202,8 @@
     <MESSAGE value="Learned how to query for a list of the created assistants" />
     <MESSAGE value="Learned how to retrieve a specific assistant" />
     <MESSAGE value="Learned how to update a specific assistant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned how to update a specific assistant" />
+    <MESSAGE value="Learned how to delete an assistant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned how to delete an assistant" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opeanai_assistant$assistant.coverage" NAME="assistant Coverage Results" MODIFIED="1742646052759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
