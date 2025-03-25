@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="Learned how to retrieve content from file objects">
+    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="Filled out create assistant more">
+      <change afterPath="$PROJECT_DIR$/messages/create_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/delete_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/list_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/message_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/modify_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/retrieve_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant/create_assistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/assistant/create_assistant.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2uf4D5wmmBCg7A53eVjpreBbUuv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742626171582</updated>
       <workItem from="1742626172607" duration="24685000" />
-      <workItem from="1742867635386" duration="11011000" />
+      <workItem from="1742867635386" duration="11629000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -223,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742882348556</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Filled out create assistant more">
+      <option name="closed" value="true" />
+      <created>1742884451036</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742884451036</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +262,8 @@
     <MESSAGE value="Learned how to retrieve file objects" />
     <MESSAGE value="Learned how to delete file objects" />
     <MESSAGE value="Learned how to retrieve content from file objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned how to retrieve content from file objects" />
+    <MESSAGE value="Filled out create assistant more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filled out create assistant more" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opeanai_assistant$assistant.coverage" NAME="assistant Coverage Results" MODIFIED="1742646052759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
