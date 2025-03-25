@@ -3,7 +3,7 @@
 # model the assistant will call.
 from openai import OpenAI
 from dotenv import dotenv_values
-config = dotenv_values(".env")
+config = dotenv_values("../.env")
 # Instantiate the openai API
 client = OpenAI(api_key=config["OPENAI_API_KEY"], base_url=config["BASE_URL"])
 

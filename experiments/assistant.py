@@ -2,7 +2,7 @@
 # add files and enable tools like code interpreter, file search, and call functions
 from openai import OpenAI
 from dotenv import dotenv_values
-config = dotenv_values(".env")
+config = dotenv_values("../.env")
 client = OpenAI(api_key=config.get("OPENAI_API_KEY"), base_url=config.get("BASE_URL"))
 
 assistant = client.beta.assistants.create(
