@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="learned how to create a message">
-      <change afterPath="$PROJECT_DIR$/run/create_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/list_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/messages/list_messages.py" afterDir="false" />
-    </list>
+    <list default="true" id="0e7c52d2-f527-489a-aeb1-421af0c158a1" name="Changes" comment="adding .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +47,10 @@
   "keyToString": {
     "Python.assistant.executor": "Run",
     "Python.create_assistant.executor": "Run",
+    "Python.experiment_1.executor": "Run",
+    "Python.experiments_2.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.retrieve_assistant.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -88,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742626171582</updated>
       <workItem from="1742626172607" duration="24685000" />
-      <workItem from="1742867635386" duration="13331000" />
+      <workItem from="1742867635386" duration="24361000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -250,7 +249,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742885391822</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="learned how to create a run">
+      <option name="closed" value="true" />
+      <created>1742887569132</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1742887569132</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Benefits of the assistants API">
+      <option name="closed" value="true" />
+      <created>1743036793761</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1743036793761</updated>
+    </task>
+    <task id="LOCAL-00023" summary="adding .gitignore">
+      <option name="closed" value="true" />
+      <created>1743037080137</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1743037080137</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,11 +300,33 @@
     <MESSAGE value="Filled out create assistant more" />
     <MESSAGE value="learned about the message object" />
     <MESSAGE value="learned how to create a message" />
-    <option name="LAST_COMMIT_MESSAGE" value="learned how to create a message" />
+    <MESSAGE value="learned how to create a run" />
+    <MESSAGE value="Benefits of the assistants API" />
+    <MESSAGE value="adding .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding .gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/experiment_1.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assistant/retrieve_assistant.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opeanai_assistant$assistant.coverage" NAME="assistant Coverage Results" MODIFIED="1742646052759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opeanai_assistant$experiments_2.coverage" NAME="experiments_2 Coverage Results" MODIFIED="1742992529437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments" />
     <SUITE FILE_PATH="coverage/opeanai_assistant$main.coverage" NAME="main Coverage Results" MODIFIED="1742645688333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opeanai_assistant$create_assistant.coverage" NAME="create_assistant Coverage Results" MODIFIED="1742692365286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opeanai_assistant$experiment_1.coverage" NAME="experiment_1 Coverage Results" MODIFIED="1742890404935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments" />
+    <SUITE FILE_PATH="coverage/opeanai_assistant$retrieve_assistant.coverage" NAME="retrieve_assistant Coverage Results" MODIFIED="1742956780003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assistant" />
   </component>
 </project>
